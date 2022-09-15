@@ -4,18 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda de panes - Masa madre</title>
+    <title>Desafios Coder</title>
     <link rel="stylesheet" href="estilo.css"
 </head>
 <body>
-    <nav class="nav">
-        <ul class="list">
-            <li class="list_button">
-                <a href="inicio.html" class="nav__link">Inicio</a>
-                <a href="inicio.html" class="nav__link">Contacto</a>
-            </li>
-        </ul>
+    <header>
+    <h3>Entrega desafio Eventos - Coderhouse</h3>
+    <nav>
+      <a href="">Home</a>
+      <a href="">Sobre Nosotros</a>
+      <a href="">Contacto</a>
     </nav>
+  </header>
+    <center><form action="">
+    <select id="seleccion" onchange="cambioProducto();">
+        <option value="">Selecciona un producto</option>
+        <option value="blanco">Pan de Masa Madre Crema y Miel</option>
+        <option value="salvado">Pan de Masa Madre Mix de Semillas</option>
+    </select>
+    <br><br>
+    <div id="contenedor"><img src="https://i.postimg.cc/mg2305mQ/Pan-de-masa-madre-3-1024x1024-1.jpg" width="500">
+    </div>
+</form>
+</center>
     <script src="./index.js"></script>
 </body>
 </html>
